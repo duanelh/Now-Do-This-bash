@@ -4,6 +4,11 @@
 ## This is a command line implementation of the 'Now Do This' http://nowdothis.com/ website
 ## The idea is respectfully borrowed from http://nowdothis.com
 
+#################################################
+#### Settings ###################################
+#################################################
+
+## Where you wish to store your 'Now Do This' file
 NDT="~/Documents/Todo/nowdothis.txt"
 ARCHIVE="~/Documents/Todo/nowdothis.txt.old"
 
@@ -18,6 +23,10 @@ TODOCMD="~/bin/todo.sh"
 
 ## Atom feed of your desired Remember the Milk list
 FEED=""
+
+#############################################
+#### Script do not change anything below ####
+#############################################
 
 ITEM=$(head -n1 $NDT)
 NEW=$2
@@ -98,7 +107,7 @@ HELP ()
     echo -e "rtm"
     echo -e "\tImport your Remember the Milk list"
     echo -e "todo"
-    echo -e "\tImport items from your todo.txt file"
+    echo -e "\tImport all items from your todo.txt file that are marked with '@NDT'"
 }
 
 CLEANUP ()
