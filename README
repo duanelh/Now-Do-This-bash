@@ -5,6 +5,7 @@ Change the settings in the script:
  - Desired location of the archive file
  - Location of your todo.sh script (if used)
  - URL of your Remember the Milk atom feed (if used)
+ - Your desired text editor
 
 Basic Usage: 
 - list OR ls OR l        List first item
