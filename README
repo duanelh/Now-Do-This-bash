@@ -1,0 +1,13 @@
+Copy the 'ndt.sh' file where desired (~/bin or your home folder).
+Make the 'ndt.sh' file executable (chmod +x ndt.sh)
+
+Basic Usage: 
+- list OR ls OR l        List first item
+- full OR fl OR fls        See your full list
+- next OR n        Display the next item
+- add OR a [New item]        Adds an item to your list
+- later        Moves the top item to the bottom
+- edit OR e        Edit your list
+- rtm        Import your Remember the Milk list
+- todo        Import items from your todo.txt file
+
